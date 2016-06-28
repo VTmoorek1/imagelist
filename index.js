@@ -2,8 +2,8 @@ var express = require("express");
 var mongodb = require("mongodb");
 var bodyParser = require("body-parser");
 var http = require("http");
-var dotenv = require("dotenv");
-dotenv.load();
+//var dotenv = require("dotenv");
+//dotenv.load();
 
 var app = express();
 var mongoClient = mongodb.MongoClient;
